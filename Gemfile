@@ -1,8 +1,8 @@
 source :rubygems
 
-gem "faraday"
+gem "faraday", "~> 0.5.7"
 
-gem "excon"
+gem "excon", "~> 0.5.6"
 gem "yajl-ruby", :require => "yajl"
 
 #gem "activesupport", "~> 3.0.4"

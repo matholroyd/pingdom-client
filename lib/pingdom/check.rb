@@ -22,11 +22,18 @@ module Pingdom
     end
     
     def lasttesttime
-      Time.at(super)
+      begin
+        Time.at(super)
+      rescue => e
+        return nil
+      end  
     end
     
     def lasterrortime
-      Time.at(super)
+      begin
+        Time.at(super)
+      rescue => e
+        return nil
     end
     
   end

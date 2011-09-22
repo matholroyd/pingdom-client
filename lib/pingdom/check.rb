@@ -34,6 +34,7 @@ module Pingdom
         Time.at(super)
       rescue => e
         return nil
+      end
     end
     
   end

@@ -3,7 +3,7 @@ source :rubygems
 #gem "faraday", "~> 0.7.6"
 gem "faraday", "~> 0.5.7"
 
-gem "excon", "~> 0.5.6"
+gem "excon"
 gem "yajl-ruby", :require => "yajl"
 
 #gem "activesupport", "~> 3.0.4"
